@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(() => {
     });
 });
 
-const mainWebSiteUrl = "https://kayoanime.com"; 
+const mainWebSiteUrl = "https://kayoanime.com/"; 
 
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab.url.startsWith(mainWebSiteUrl)) {
