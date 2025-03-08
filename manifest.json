@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Kayoanime Add Block Detector Avoider",
+    "description": "Helps avoid the site's add blocker by injecting css to remove add blocker detector's popup and its overlay.",
+    "version": "1.0.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
