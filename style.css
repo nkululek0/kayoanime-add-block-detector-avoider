@@ -1,0 +1,11 @@
+html {
+    overflow: scroll !important;
+}
+
+div#tie-wrapper {
+    filter: none !important;
+}
+
+div#tie-popup-adblock {
+    display: none !important;
+}
